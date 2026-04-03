@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "logesh",
+      "email": "logeshv44110v@gmail.com",
+      "role": "Developer",
+      "passwordHash": "100000.ANUgKu6gKbm\u002ByVvixXubKA==.YLjuf9qShuKefMhtEPhuevcCGT1wgbmliRqzi5LsEnw=",
+      "createdAt": "2026-03-27T15:47:00.0047869Z"
+    },
+    {
+      "id": 2,
+      "name": "System Admin",
+      "email": "admin@devinsight.local",
+      "role": "Admin",
+      "passwordHash": "100000.lA1z\u002B4bJ/gV8a\u002BpqMawj3w==.0VJgic9Alawgfj8MJotsY8sAYheU4ZlT80pY24k28x8=",
+      "createdAt": "2026-03-27T17:17:21.1441451Z"
+    },
+    {
+      "id": 3,
+      "name": "Default Developer",
+      "email": "developer@devinsight.local",
+      "role": "Developer",
+      "passwordHash": "100000.DTRjZbh/tYYUNhweaVDM4Q==.MKYG3qD14EsuSNuu9SStdu9wL2vHEikny6SGgs/w6yI=",
+      "createdAt": "2026-03-27T17:17:21.1540926Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "home page",
+      "description": "need to create a home page",
+      "createdAt": "2026-03-27T15:47:34.0601565Z",
+      "createdByUserId": 1
+    },
+    {
+      "id": 2,
+      "name": "Signup",
+      "description": "complete this signup page",
+      "createdAt": "2026-03-27T17:31:34.7477828Z",
+      "createdByUserId": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "home",
+      "description": "create home page",
+      "status": "Done",
+      "priority": "Medium",
+      "projectId": 1,
+      "assignedUserId": 1,
+      "createdAt": "2026-03-27T16:01:55.9314899Z",
+      "dueDate": "2026-04-03T00:00:00Z",
+      "completedAt": null
+    },
+    {
+      "id": 2,
+      "title": "Realtime Smoke Task",
+      "description": "Verify RBAC notifications and task updates.",
+      "status": "Done",
+      "priority": "High",
+      "projectId": 1,
+      "assignedUserId": 3,
+      "createdAt": "2026-03-27T17:20:42.85681Z",
+      "dueDate": "2026-04-10T00:00:00Z",
+      "completedAt": "2026-03-27T17:55:17.2328981Z"
+    },
+    {
+      "id": 3,
+      "title": "Signup",
+      "description": "create a signup page",
+      "status": "InProgress",
+      "priority": "Critical",
+      "projectId": 2,
+      "assignedUserId": 3,
+      "createdAt": "2026-03-27T17:33:32.576397Z",
+      "dueDate": "2026-04-03T00:00:00Z",
+      "completedAt": null
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "message": "You were assigned \u0022Realtime Smoke Task\u0022 in home page.",
+      "userId": 3,
+      "isRead": true,
+      "createdAt": "2026-03-27T17:20:42.862388Z"
+    },
+    {
+      "id": 2,
+      "message": "Task \u0022Realtime Smoke Task\u0022 moved from Todo to InProgress.",
+      "userId": 3,
+      "isRead": true,
+      "createdAt": "2026-03-27T17:22:13.5437194Z"
+    },
+    {
+      "id": 3,
+      "message": "Task \u0022Realtime Smoke Task\u0022 moved from Todo to InProgress.",
+      "userId": 1,
+      "isRead": false,
+      "createdAt": "2026-03-27T17:22:13.5471212Z"
+    },
+    {
+      "id": 4,
+      "message": "Task \u0022home\u0022 moved from InProgress to Todo.",
+      "userId": 1,
+      "isRead": false,
+      "createdAt": "2026-03-27T17:32:33.7743564Z"
+    },
+    {
+      "id": 5,
+      "message": "Task \u0022home\u0022 moved from Todo to Done.",
+      "userId": 1,
+      "isRead": false,
+      "createdAt": "2026-03-27T17:32:50.0964119Z"
+    },
+    {
+      "id": 6,
+      "message": "You were assigned \u0022Signup\u0022 in Signup.",
+      "userId": 3,
+      "isRead": true,
+      "createdAt": "2026-03-27T17:33:32.5941648Z"
+    },
+    {
+      "id": 7,
+      "message": "Task \u0022Signup\u0022 moved from Todo to InProgress.",
+      "userId": 3,
+      "isRead": true,
+      "createdAt": "2026-03-27T17:33:51.0510637Z"
+    },
+    {
+      "id": 8,
+      "message": "Task \u0022Realtime Smoke Task\u0022 moved from InProgress to Done.",
+      "userId": 3,
+      "isRead": false,
+      "createdAt": "2026-03-27T17:55:17.2559508Z"
+    },
+    {
+      "id": 9,
+      "message": "Task \u0022Realtime Smoke Task\u0022 moved from InProgress to Done.",
+      "userId": 1,
+      "isRead": false,
+      "createdAt": "2026-03-27T17:55:17.2726894Z"
+    }
+  ]
+}
